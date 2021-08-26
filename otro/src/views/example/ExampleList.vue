@@ -57,6 +57,7 @@
                   v-on:click="decrementarContador(item.producto.id)"
                 >
                   <!--ssss-->
+                  <!--Comentario Guido-->
                 </button>
                 {{ items[indice].counter }}
 
