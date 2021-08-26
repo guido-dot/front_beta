@@ -57,11 +57,8 @@
                   v-on:click="decrementarContador(item.producto.id)"
                 >
                   <!--ssss-->
-<<<<<<< HEAD
                   <!--comentario Breiner-->
-=======
                   <!--Comentario Guido-->
->>>>>>> dcf7880db7f15701b1a982605a099aa0966dc4a9
                 </button>
                 {{ items[indice].counter }}
 
