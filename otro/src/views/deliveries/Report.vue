@@ -2,6 +2,7 @@
   <div>
     <h1>
       Generar reporte para <b>{{ enterprise.name | capitalize }}</b>
+      BREINER AGREGO esto
     </h1>
     <div class="jumbotron">
       <div class="custom-control custom-radio">
