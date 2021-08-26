@@ -48,7 +48,9 @@
           <br />
           <!--Items-->
           <span v-for="(item, indice) of this.items" v-bind:key="item.id">
+
             <div class="row ml-3" v-if="indice != 0">
+              <!--botones de incrementar o quitar-->
               <div class="col">
                 <button
                   class="btn btn-light btn-outline btn-xs"
@@ -72,7 +74,7 @@
               <div class="col text-left">
                 {{ items[indice].producto.price * items[indice].counter }}
               </div>
-              <div class="col" style="text-align: right; margin-right: 2%">
+              <div class="col-sm" style="text-align: right; margin-right: 2%">
                 <button
                   type="button"
                   class="btn btn-xs"
@@ -99,7 +101,6 @@
               <p style="font-weight: bold">$</p>
             </div>
           </div>
-          
         </div>
       </div>
     </div>
