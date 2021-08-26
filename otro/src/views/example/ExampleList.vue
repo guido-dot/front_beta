@@ -56,7 +56,7 @@
                   class="btn btn-light btn-outline btn-xs"
                   v-on:click="decrementarContador(item.producto.id)"
                 >
-                  -
+                  <!--ssss-->
                 </button>
                 {{ items[indice].counter }}
 
