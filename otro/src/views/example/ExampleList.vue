@@ -99,49 +99,7 @@
               <p style="font-weight: bold">$</p>
             </div>
           </div>
-          <!--
-          <div class="">
-            <div class="row" v-if="indice != 0">
-              <ul class="">
-                <li
-                  v-for="(item, indice) of this.items"
-                  v-bind:key="item.id"
-                  class="list-group-item"
-                >
-                  <button
-                    class="btn btn-light btn-outline btn-xs"
-                    v-on:click="decrementarContador(item.producto.id)"
-                  >
-                    -
-                  </button>
-                  {{ items[indice].counter }}
-
-                  <button
-                    class="btn btn-light btn-outline btn-xs"
-                    v-on:click="incrementarContador(item.producto.id)"
-                  >
-                    +
-                  </button>
-                  {{ items[indice].producto.name }}
-
-                  {{ items[indice].producto.price }}
-
-                  <span class="badge badge-pill">
-                    <button
-                      type="button"
-                      class="btn btn-xs"
-                      v-on:click="eliminarItem(item.producto.id)"
-                    >
-                      x
-                    </button>
-                  </span>
-                </li>
-              </ul>
-            </div>
-
-            <a href="#" class="btn btn-success">Continuar</a>
-          </div>
-          -->
+          
         </div>
       </div>
     </div>
